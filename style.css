@@ -1,0 +1,185 @@
+body{background-image: linear-gradient(90deg, #9bcd9b 5%, 	#f5fffa 30%, #9bcd9b 80%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: auto;
+max-width: 80%;
+}
+
+a{
+    color: rgb(0, 84, 84);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h6{
+    color: rgb(0, 84, 84);
+    font-size: small;
+    line-height: 40%;
+    font-size: 14px;
+}
+
+
+.Überschriften{
+    background-image: url(image.png);;
+    background-color: rgba(12, 119, 83, 0.545);
+    color: #173e14;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px -10px 10px #2c5126;
+}
+
+.Überschriften2{
+    font-size:medium;
+    color:rgb(255, 255, 255)
+
+}
+
+.Orientierung{
+    background-color: rgba(255, 253, 253, 0.607);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40%;
+} 
+
+p{
+color: #0c220b;
+font-size: 20px;
+line-height: 180%;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+img{
+width: 45%;
+height: auto;
+box-shadow: 10px 10px 10px rgb(105, 105, 105);
+border-radius: 20px;
+}
+
+hr{
+border-top: 2px solid rgb(52, 125, 38);
+}
+
+.logo {
+
+width: 12%;
+text-align: center;
+border-radius: 500px;
+box-shadow:inset;
+margin-left: 20px;
+}
+
+.grün{
+    background-color: #0c220b;
+}
+
+.Weiß{
+    background-color: #ffffff62;
+    box-shadow: 0px 0px 10px #2c5126;
+}
+
+
+.aaaa{
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.a1{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.a3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.perspektive{
+padding-left: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.bbbb{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .b1{
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    
+    .b3{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+.cc{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+        
+.c1{
+    display: flex;
+    justify-content:space-between;
+    }
+
+    .dd{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+            
+    .d1{
+        display: flex;
+        justify-content:space-between;
+        }
+
+        .algo2{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            }
+                
+        .algoA{
+            display: flex;
+            justify-content:space-between;
+            }
+        .algoB{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .algo3{
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            }
+                
+        .algoC{
+            display: flex;
+            justify-content:space-between;
+            }
+        .algoD{
+            display: flex;
+            justify-content:space-between;
+        }
+  
