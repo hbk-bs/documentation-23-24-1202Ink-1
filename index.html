@@ -42,7 +42,8 @@
 		 </p>
 		 <div class="Weiß"><br>
 		 <p><strong id="Der Algorithmus">Der Algorithmus</strong><br><br>
-		 Unser erstes Projekt bestand darin einen Algorithmus zu erstellen - also Regeln und Parameter für eine Grafik aufzustellen, worafhin wir diesen dann von 10 anderen Personen analog ausführen lassen sollten. Ich wollte allerdings nicht nur meine Kommilitonen fragen, sondern auch völlig unbeteiligte Personen, die nichts von der Aufgabe wussten. So kann man testen, ob der Algorithmus zu ungenau beschrieben ist. oder so, dass ihn jeder versteht.<br>Im Anschluss haben wir eine Online-Präsentation gestaltet, um unsere Ergebnisse zu demonstrieren.<br>Ich fand es interessant, wie verschieden die Leute meinen, oder auch andere Algorithmen interpretiert und dargestellt haben, obwohl sie ihn richtig ausgeführt - also sich an die Regeln und Parameter gehalten - haben. Im Nachhinein habe ich noch mehr Algorithmen analog geschrieben und diese ausführen lassen, die etwas zusammenhängender sind, aber auch mehr Parameter enthalten. Die Muster meines ersten Algorithmus waren nichts Zusammenhängendes, daher wollte ich noch weitere ausprobieren. Die Ergebnisse dazu habe ich hier ebenfalls eingefügt.</p><br>
+		 Ein Algorithmus ist eine Folge von Anweisungen. Also eindeutig definierte Einzelschritte.<br><br> 
+		 Unser erstes Projekt bestand darin einen Algorithmus zu erstellen - also Regeln und Parameter für eine Grafik aufzustellen, worafhin wir diesen dann von 10 anderen Personen analog ausführen lassen sollten. Ich wollte allerdings nicht nur meine Kommilitonen fragen, sondern auch völlig unbeteiligte Personen, die nichts von der Aufgabe wussten. So kann man testen, ob der Algorithmus zu ungenau beschrieben ist. oder so, dass ihn jeder versteht. Im Anschluss haben wir eine Online-Präsentation gestaltet, um unsere Ergebnisse zu demonstrieren.<br><br>Ich fand es interessant, wie verschieden die Leute meinen, oder auch andere Algorithmen interpretiert und dargestellt haben, obwohl sie ihn richtig ausgeführt - also sich an die Regeln und Parameter gehalten - haben. Im Nachhinein habe ich noch mehr Algorithmen analog geschrieben und diese ausführen lassen, die etwas zusammenhängender sind, aber auch mehr Parameter enthalten. Die Muster meines ersten Algorithmus waren nichts Zusammenhängendes, daher wollte ich noch weitere ausprobieren. Die Ergebnisse dazu habe ich hier ebenfalls eingefügt.</p><br>
 		 
 		 <div class="aaaa">
 		 <div class="a1">
@@ -68,6 +69,7 @@
 			<br>
 			<div class="algoB">
 			<img src="Algo2.2.jpg">
+			<img src="Algo2.3.jpg">
 			</div></div>
 		<p>Algorithmus 3:<br>
 		Zeichne auf ein DinA4 Blatt 30 Linien, die alle unterschiedlich lang sind. die Linien sollen gerade sein, dürfen in jede Richtung laufen, aber sich nicht berühren. An jeder Linie soll an einem Ende ein Kreis gezeichnet werden. Die Linie soll den Kreis berühren, darf aber nicht in den Kreis hineinragen. Das andere Ende der Linie soll mit dem am nächsten liegenden Linienende verbunden werden und dann immer so weiter, bis man das letzte Linienende erreicht hat. </p><br>
@@ -79,6 +81,7 @@
 			<br>
 			<div class="algoD">
 			<img src="Algo3.2.jpg">
+			<img src="Algo3.3.jpg">
 			</div></div>
 		 <br><hr><br>
 		 <p><strong id="PerspektivenJavaScript">Perspektiven in JavaScript</strong><br><br>
@@ -103,7 +106,7 @@
 		 <br><hr><br>
 		 <p><strong id="Abschluss">Unser Abschlussprojekt</strong><br><br>
 		 An diesem Projekt hat der gesamte Grundlagenkurs gearbeitet. Es wurden Teams gebildet, die sich jeweils um einen bestimmten Abschnitt kümmern sollten. Bsp: Physical Building, HardwareCode, Dokumentation etc. Wir haben uns für unser Semesterprojekt dazu entschieden, ein Spiel zu entwickeln, da uns eine Interaktion mit dem Projekt wichtig war.<br><br> Unsere Idee war es, den Boden unseres Grundlagenraums mit Druckplatten auszulegen. Unter einigen von ihnen sind Sensoren eingebaut, die eine Aktion auslösen, wenn man auf sie tritt.<br>
-		 Sinn des Spiels ist es, ein schlafendes Monster nicht zu wecken, während man sich nachts in die Küche schleicht, um sich etwas zu Essen zu machen. Auf dem Weg dahin, muss man über diese Druckplatten laufen. Manche der Platten lösen ein Dielenknarren aus, manche lassen das Monster aufwecke und manche sind für das Monster nur ein Trigger. Hat man das Monster geweckt, muss man einen Button drücken, wodurch sich das Monster wieder schlafen legt und einen nächsten Versuch starten kann.<br><br> Ich war im HardwareCode-Team. Wir haben also einen Code, mit dem Programm Arduino IDE, in C++ geschrieben der dafür sorgt, dass ein Signal durch die Druckplatten ausgelöst wird. Zudem haben wir einen Loop eingebaut und diesen mit einem Button verbunden, damit man das Spiel immer wiederholen kann. Zudem gibt es noch einen Win-Button, den man drücken kann, wenn man gewonnen hat. Getestet haben wir unseren Code dann mit dem Arduinoboard. Wir haben 2 Kabel in die zugeschriebenen Pins und den Ground gesteckt und konnten so in der Console sehen, ob es ein Signal abgibt.</p>
+		 Sinn des Spiels ist es, ein schlafendes Monster nicht zu wecken, während man sich nachts in die Küche schleicht, um sich etwas zu Essen zu machen. Auf dem Weg dahin, muss man über diese Druckplatten laufen. Manche der Platten lösen ein Dielenknarren aus, manche lassen das Monster aufwecke und manche sind für das Monster nur ein Trigger. Hat man das Monster geweckt, muss man einen Button drücken, wodurch sich das Monster wieder schlafen legt und einen nächsten Versuch starten kann.<br><br> Ich war im HardwareCode-Team. Wir haben also einen Code, mit dem Programm Arduino IDE und den Bibliotheken arduino_secrets.h (Zum Speichern sensibler Daten, die nicht im Hauptprogrammiercode sichtbar enthalten sein sollten) und adafruit_Debounce.h (Sorgt für eine stabilere Eingabe, um nicht fälschlicherweise Signale zu senden.), in C++ geschrieben der dafür sorgt, dass ein Signal durch die Druckplatten ausgelöst wird. Zudem haben wir einen Loop eingebaut und diesen mit einem Button verbunden, damit man das Spiel immer wiederholen kann. Zudem gibt es noch einen Win-Button, den man drücken kann, wenn man gewonnen hat. Getestet haben wir unseren Code dann mit dem Arduinoboard. Wir haben 2 Kabel in die zugeschriebenen Pins und den Ground gesteckt und konnten so in der Console sehen, ob es ein Signal abgibt.</p>
 		 <div class="dd">
 			<div class="d1">
 			<img src="D1.png">
